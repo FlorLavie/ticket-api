@@ -8,6 +8,10 @@ import lombok.NoArgsConstructor;
 public class Ticket {
 
     private Long Id;
-
+    private FlightDto flightDto;
     private String PassengerName;
+
+    public long getId() {
+        return Id;
+    }
 }
